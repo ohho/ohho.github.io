@@ -9,13 +9,6 @@
     font-style: normal;
 }
 
-/***** RESET *****/
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -111,7 +104,6 @@ body {
 	height: 50px;
 }
 img.logo {
-	float: center;
 	margin-top: 25px;
 }
 #dropdown h3 {
@@ -161,7 +153,7 @@ li.dmenu5 {
 	margin:0 10px;
 }
 #dropdown a:hover {
-	color: #b4b7bc;
+	color: #666666;
 }
 
 #dropdown h4 {
@@ -357,23 +349,22 @@ li.dmenu5 {
 
 #nav2 {
 	float: center;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 #nav2 a {
 	font-family: sans-serif;
-	color: #ced0d4;
+	color: #666666;
 	font-size: 12px;
 	float: center;
 	padding-left: 10px;
 }
 #nav2 a.active {
-	color: #ffffff;
+	color: #fccf21;
 }
 #nav2 a:hover {
-	color: #ffffff;
+	color: #fccf21;
 }
 #nav2 a:before {
-	content: '\//';
 	margin-right: 15px;
 }
 #nav2 a:first-child:before {
@@ -417,23 +408,18 @@ li.dmenu5 {
 }
 
 .portfoliocontainer {
-	width:1052px;
-	min-height: 526px;
+	/*min-height: 526px;*/
 	overflow: hidden;
 	display: block;
 	float: left;
-	margin-top: 20px;
-	margin-left: -15px;
+	margin-top: 10px;
 }
 .portfoliocontainer li {
 	float: left;
-	padding-bottom: 20px;
-	padding-right: 20px;
+	margin: 12px;
 	width: 210px;
 	height: 140px;
 	position: relative;
-	padding-left: 15px;
-	padding-top: 15px;
 }
 .portfoliocontainer li img {
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .25);
@@ -499,12 +485,14 @@ li.dmenu5 {
 	background: rgba(182,182,182,.2);
 	float: left;
 	margin-bottom:5px;
+	margin-top: 10px;
 }
 footer {
 	width: 942px;
 	height: 30px;
 	float: center;
 	margin-bottom: 50px;
+	margin-top:10px;
 }
 
 footer h1 {
