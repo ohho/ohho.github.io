@@ -258,7 +258,7 @@ a.fancybox-expand {
     position: relative;
     margin-top: 10px;
     color: #fff;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+    text-align:center;
 }
 
 .fancybox-title-inside-wrap {

@@ -99,12 +99,12 @@
 			margin    : [30, 55, 30, 55],	// space between viewport and the box
 			loop      : true,               // Continuous gallery item loop
 
-			arrows    : true,
+			arrows    : false,
 			closeBtn  : false,
 			expander  : !isTouch,
 
 			caption : {
-				type     : 'over'	// 'float', 'inside', 'outside' or 'over',
+				type     : 'outside'	// 'float', 'inside', 'outside' or 'over',
 			},
 
 			overlay : {
