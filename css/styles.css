@@ -91,7 +91,7 @@ body {
 	background-image: url(../images/control.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	width: 250px;
+	width: 190px;
 	height: 50px;
 	float: right;
 	margin-top: -1px;
@@ -99,8 +99,8 @@ body {
 .dropbtn.active {
 	background-image: url(../images/control.png);
 	background-repeat: no-repeat;
-	background-position: -250px 0px;
-	width: 250px;
+	background-position: -190px 0px;
+	width: 190px;
 	height: 50px;
 }
 img.logo {
@@ -356,7 +356,8 @@ li.dmenu5 {
 	color: #666666;
 	font-size: 12px;
 	float: center;
-	padding-left: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 #nav2 a.active {
 	color: #fccf21;

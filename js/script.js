@@ -4,6 +4,11 @@ $(document).ready(function(){
 		itemsByTags = {};
 	
 	// Looping though all the li items:
+
+	// Fancybox
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 	
 	//Hover effect
 	$('li').hover(function(){

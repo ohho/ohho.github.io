@@ -3,17 +3,29 @@
 
 <html lang="en">
 <head>
-
+	<link rel="shortcut icon" href="http://ohho-design.com/favicon.ico" />
 	<meta charset="utf-8">
 	<meta name="description" content="Jackie Ho ohho ohhodesign portfolio design photography freelance columbia university">
 	<title>OHHODESIGN || Jackie Ho's Portfolio</title>
 	<link rel="stylesheet" href="css/styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/lightbox.css"/>
+	<!--<link rel="stylesheet" href="css/lightbox.css"/>-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-	<script type="text/javascript">
 
-	
+	<!-- Additional functions -->
+	<script src="js/script.js"></script>
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
+	<!-- End FancyBox -->
+
+	<script type="text/javascript">
 	var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-32842412-3']);
 		_gaq.push(['_trackPageview']);
@@ -26,12 +38,11 @@
 
 	$(document).ready(function(){
 
-	$(".dropbtn").click(function(){
-	  $("#dropdown").slideToggle("slow");
-	  $(this).toggleClass("active");
+		$(".dropbtn").click(function(){
+			$("#dropdown").slideToggle("slow");
+			$(this).toggleClass("active");
+		});
 	});
-	
-});
 	</script>
 
 </head>
@@ -48,11 +59,10 @@
 		<h2> <img src="images/about.png"></h2>
 		
 		<p class="dpara1 dparas">California. To New York City. Art. Design. Photography. Tech. Innovation. I'm a designer-developer with a passion for product, usability, and UI/UX. I'm a self-starter with experience in agile/scrum development and copy. How can I help?</p>
-		<p class="dpara2 dparas"><i>&#8220;"When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.&#8221;</i> - R. Buckminster Fuller</p>
+		<p class="dpara2 dparas"><i>&#8220;When I'm working on a problem, I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong.&#8221;</i> - R. Buckminster Fuller</p>
 		<p class="dpara3 dparas">
 			<a style="margin-left:0px;" href="http://ohhodesign.tumblr.com/">Tumblr</a> //
 			<a href="#">ohhodesign[at]gmail.com</a>  //
-			<a href="http://www.flickr.com/photos/79827508@N03/show/">Flickr</a> //
 			<a href="https://twitter.com/ohhoDesign">Twitter</a>	
 		</p>
 		
@@ -73,13 +83,13 @@
 
 	
 		<nav id="nav2">
-			<a style="padding-left:0px;" href="index.html">Featured</a>
+			<a href="index.html">Featured</a>
+			<a href="corporate.html">Web/Corporate</a>
 			<a href="print.html">Print</a>
-			<a href="photography.html">Still Life Photography</a>
-			<a href="people.html">People/Event Photography</a>
-			<a href="corporate.html">Corporate/Work-related</a>
+			<a href="event.html">Event Photography</a>
+			<a href="photography.html">Still Life Photography</a>	
+			<a href="people.html">People Photography</a>					
 			<a class="active" href="traditional.html">Traditional</a>
-			<a style="padding-right:10px;" href="film.html">Film</a>
 		</nav>
 		
 		<div class="portfolioseperator"></div>
@@ -89,76 +99,76 @@
 
 			<!--Traditional Artwork-->
 			<li>
-				<a href="images/portfolio/trad/trad-30-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-30.jpg" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-30-full.jpg" ><img src="images/portfolio/trad/trad-30.jpg" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-29-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-29.jpg" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-29-full.jpg" ><img src="images/portfolio/trad/trad-29.jpg" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-25-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-25.jpg" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-25-full.jpg" ><img src="images/portfolio/trad/trad-25.jpg" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-28-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-28.jpg" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-28-full.jpg" ><img src="images/portfolio/trad/trad-28.jpg" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-27-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-27.jpg" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-27-full.jpg" ><img src="images/portfolio/trad/trad-27.jpg" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-26-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-26.jpg" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-26-full.jpg" ><img src="images/portfolio/trad/trad-26.jpg" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-01-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-01.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-01-full.png" ><img src="images/portfolio/trad/trad-01.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-02-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-02.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-02-full.png" ><img src="images/portfolio/trad/trad-02.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-04-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-04.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-04-full.jpg" ><img src="images/portfolio/trad/trad-04.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-06-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-06.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-06-full.png" ><img src="images/portfolio/trad/trad-06.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-07-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-07.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-07-full.png" ><img src="images/portfolio/trad/trad-07.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-09-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-09.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-09-full.jpg" ><img src="images/portfolio/trad/trad-09.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-10-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-10.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-10-full.jpg" ><img src="images/portfolio/trad/trad-10.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-11-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-11.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-11-full.jpg" ><img src="images/portfolio/trad/trad-11.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-13-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-13.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-13-full.png" ><img src="images/portfolio/trad/trad-13.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-14-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-14.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-14-full.jpg" ><img src="images/portfolio/trad/trad-14.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-15-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-15.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-15-full.png" ><img src="images/portfolio/trad/trad-15.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-16-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-16.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-16-full.png" ><img src="images/portfolio/trad/trad-16.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-18-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-18.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-18-full.png" ><img src="images/portfolio/trad/trad-18.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-19-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-19.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-19-full.png" ><img src="images/portfolio/trad/trad-19.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-20-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-20.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-20-full.png" ><img src="images/portfolio/trad/trad-20.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-21-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-21.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-21-full.jpg" ><img src="images/portfolio/trad/trad-21.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-23-full.png" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-23.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-23-full.png" ><img src="images/portfolio/trad/trad-23.png" alt="" /></a>
 			</li>
 			<li>
-				<a href="images/portfolio/trad/trad-24-full.jpg" rel="lightbox[trad]"><img src="images/portfolio/trad/trad-24.png" alt="" /></a>
+				<a class="fancybox" rel="group" href="images/portfolio/trad/trad-24-full.jpg" ><img src="images/portfolio/trad/trad-24.png" alt="" /></a>
 			</li>
 			
 			<!--End-->
@@ -177,15 +187,6 @@
 			</h1>
 		</footer>
 </div><!--container end-->
-
-<script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
-<script src="js/jquery.smooth-scroll.min.js"></script>
-<script src="js/lightbox.js"></script>
-<script src="js/jquery.quicksand.js"></script>
-<script src="js/script.js"></script>
-
-	</script>
 	
 
 </body>
