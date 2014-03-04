@@ -42,15 +42,15 @@ body,html {
 #title {
   height: 100%;
   width: 100%;
-  background-color: #000000;
+  background-color: #f0794a;
 }
 
 #logo {
   position:absolute;
   top:55%;
-  max-width:25%;
+  max-height:25%;
   left:50%;
-  margin-left:-11%;
+  margin-left:-100%;
   margin-top:-12%;
   display:block; 
 }
@@ -101,7 +101,7 @@ body,html {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   min-height:74px;
 }
 
