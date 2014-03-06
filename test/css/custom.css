@@ -50,22 +50,37 @@ body,html {
   background-color: rgba(100, 149, 68, 0.8);
 }
 
+#title-content{
+  
+}
+
 #logo {
   position:absolute;
-  top:65%;
   left:50%;
-  margin-top:-12%;
+  top:38%;
   display:block; 
+  max-width:90%;
+  margin-left:-45%;
+  max-height:32%;
+}
 
-  width: 500px;
-  max-width:80%;
-  margin-left:-40%;
+.title-text{
+  position:absolute;
+  top:57%;
+  width:500px;
+  left:50%;
+  margin-left:-250px;
+}
+
+.title-text>p{
+  color:#FFFFFF;
+  font-size:20px;
 }
 
 .green-border {
   height:1%;
   width:100%;
-  border-bottom: 10px solid rgba(100, 149, 68, 0.8);
+  border-bottom: 10px solid rgba(241, 197, 83, 1);
 }
 
 
@@ -130,7 +145,7 @@ body,html {
 #rectangle-left {
   width: 56%;
   height: 80px;
-  background-color: rgba(100, 149, 68, 0.8);
+  background-color: rgba(241, 197, 83, .8);
   position:fixed;
   left:0px;
   z-index:10;
@@ -139,7 +154,7 @@ body,html {
 #triangle-bottomleft {
   width: 0;
   height: 0;
-  border-bottom: 80px solid rgba(100, 149, 68, 0.8);
+  border-bottom: 80px solid rgba(241, 197, 83, .8);
   border-right: 80px solid transparent;
   position:fixed;
   left:56%;
@@ -279,6 +294,16 @@ ul {
   #logo {
     width: 700px;
     margin-left:-350px;
+    max-height:32%;
+    top:27%;
+  }
+
+  .title-text{
+    top:47%;
+  }
+
+  .title-text>p{
+    font-size:30px;
   }
 
   #arrow {
@@ -344,6 +369,11 @@ ul {
   #logo {
     width: 800px;
     margin-left:-400px;
+    max-height:39%;
+  }
+
+  .title-text{
+    top:52%;
   }
 
   #arrow {
@@ -391,6 +421,11 @@ ul {
   #logo {
     width: 900px;
     margin-left:-450px;
+    max-height:37%;
+  }
+
+  .title-text{
+    top:52%;
   }
 
   #arrow {
