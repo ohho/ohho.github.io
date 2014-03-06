@@ -47,8 +47,7 @@ body,html {
 #title {
   height: 80%;
   width: 100%;
-  background-color: #f0794a;
-  /*border-bottom: 5px solid black; */
+  background-color: rgba(100, 149, 68, 0.8);
 }
 
 #logo {
@@ -63,24 +62,13 @@ body,html {
   margin-left:-40%;
 }
 
-@media (min-width: 768px) {
-  #logo {
-    width: 700px;
-    margin-left:-350px;
-  }
+.green-border {
+  height:1%;
+  width:100%;
+  border-bottom: 10px solid rgba(100, 149, 68, 0.8);
 }
-@media (min-width: 992px) {
-  #logo {
-    width: 800px;
-    margin-left:-400px;
-  }
-}
-@media (min-width: 1200px) {
-  #logo {
-    width: 900px;
-    margin-left:-450px;
-  }
-}
+
+
 
 #arrow {
   position:absolute;
@@ -93,7 +81,7 @@ body,html {
 
 
 #about {
-  background-color: #FFFFFF;
+  background-color: #fefbee;
   padding-top:3%;
   padding-bottom:2%;
 }
@@ -237,4 +225,115 @@ ul {
 .footer-text {
   color:#FFFFFF;
   margin-bottom:0px;
+}
+
+/** RESPONSIVE **/
+
+
+
+
+
+@media (min-width: 768px) {
+  .container {
+  }
+
+  #logo {
+    width: 700px;
+    margin-left:-350px;
+  }
+
+  #arrow {
+    max-width:2.5%;
+    margin-left:-1.25%;
+  }
+
+  ul{
+    font-size: 17px;
+  }
+
+  p{
+    font-size:21px;
+  }
+  .intro-text {
+    padding: 35px 15px;
+  }
+  #footer {
+    height:20%;
+  }
+
+  .footer-text,
+  .credit-text {
+    font-size:21px;
+  }
+
+  .thumb{
+    width:30.5%;
+    margin:1%;
+  }
+
+  #footer-para {
+    margin-top:4%;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .container {
+  }
+
+  .navbar-nav>li>a {
+    font-size:20px;
+  }
+
+  #logo {
+    width: 800px;
+    margin-left:-400px;
+  }
+
+  #arrow {
+    max-width:2%;
+    margin-left:-1%;
+  }
+
+  .thumb{
+    width:145px;
+    margin:3px;
+  }
+
+  #footer-para {
+    margin-top:4%;
+  }
+
+}
+
+
+
+@media (min-width: 1200px) {
+  .container {
+  }
+
+  .navbar-nav>li>a {
+    font-size:20px;
+  }
+
+  #logo {
+    width: 900px;
+    margin-left:-450px;
+  }
+
+  #arrow {
+    max-width:1.5%;
+    margin-left:-0.75%;
+  }
+
+  .thumb{
+    width:190px;
+    margin:3px;
+  }
+
+  #footer-para {
+    margin-top:6%;
+  }
+
 }
