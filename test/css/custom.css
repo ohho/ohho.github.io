@@ -226,7 +226,9 @@ body,html {
 
 .navbar-inverse .navbar-toggle {
   border-color:transparent;
-  margin-top: 15px;
+  margin-top: 22px;
+  padding: 7px 7px;
+  border-radius:3px;
 }
 
 .navbar-inverse .navbar-toggle:hover,
