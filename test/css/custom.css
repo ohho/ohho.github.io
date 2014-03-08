@@ -284,6 +284,16 @@ ul {
 
 
 /* WORK SECTION */
+.work-heading >h1{
+  float:left;
+  margin-bottom:40px;
+}
+
+.work-heading >p{
+  float:left;
+  margin:30px 0 0 10px;
+}
+
   .thumb{
     max-width: 100%;
     margin:1% 0 1% 0;  
@@ -319,7 +329,7 @@ ul {
     height:98%;
     z-index:1000;
     margin-bottom:1%;
-    padding:35px;
+    padding:35px 10px 0 10px;
   }
 
   .img-info p{
@@ -327,8 +337,8 @@ ul {
   }
 
   .img-wrap:hover .img-info{
-    opacity:0.7;
-    filter: alpha(opacity = 70);
+    opacity:0.8;
+    filter: alpha(opacity = 80);
     transition:opacity 0.35s;
     -moz-transition:opacity 0.35s;
     -webkit-transition:opacity 0.35s;
