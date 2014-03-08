@@ -128,9 +128,13 @@ body,html {
 }
 
 #footer {
-  background-color: #69A6CF;
   height:20%;
   padding-top:2%;
+
+  background:url(../images/footer-bg.jpg);
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-color:#444444;
 }
 
 .intro-text {
@@ -329,11 +333,15 @@ ul {
     height:98%;
     z-index:1000;
     margin-bottom:1%;
-    padding:35px 10px 0 10px;
+    padding:60px 20px 0 20px;
   }
 
   .img-info p{
     padding:0 10px;
+  }
+
+  .img-info p#sub-text {
+    font-size:18px;
   }
 
   .img-wrap:hover .img-info{
