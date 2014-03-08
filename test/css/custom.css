@@ -51,6 +51,12 @@ body,html {
   background-color: rgba(100, 149, 68, 0.8);
 }
 
+#title-sm {
+  height: 45%;
+  width: 100%;
+  background-color: rgba(100, 149, 68, 0.8);
+}
+
 
 #logo {
   position:absolute;
@@ -128,7 +134,7 @@ body,html {
 }
 
 #footer {
-  height:20%;
+  height:15%;
   padding-top:2%;
 
   background:url(../images/footer-bg.jpg);
