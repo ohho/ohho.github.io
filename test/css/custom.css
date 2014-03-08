@@ -54,7 +54,7 @@ body,html {
 #title-sm {
   height: 35%;
   width: 100%;
-  background-color: rgba(100, 149, 68, 0.8);
+  background-color: #fff;
 }
 
 
@@ -62,6 +62,16 @@ body,html {
   position:absolute;
   left:50%;
   top:38%;
+  display:block; 
+  max-width:90%;
+  margin-left:-45%;
+  max-height:32%;
+}
+
+#logo-sm{
+  position:absolute;
+  left:50%;
+  top:15%;
   display:block; 
   max-width:90%;
   margin-left:-45%;
@@ -111,7 +121,7 @@ body,html {
 
 
 #about {
-  background-color: #fefbee;
+  background-color: #fff;
   padding-top:5%;
   padding-bottom:5%;
 }
@@ -374,7 +384,7 @@ ul {
   }
 
   .btn-project:hover {
-    background-color: rgba(29, 100, 127, 0.8);
+    background-color: rgba(29, 100, 127, 0.8) ;
     border-color:transparent;
   }
 
@@ -535,6 +545,13 @@ ul {
     width: 900px;
     margin-left:-450px;
     max-height:37%;
+  }
+
+  #logo-sm{
+    top:15%;
+    max-width:50%;
+    margin-left:-25%;
+    max-height:32%;
   }
 
   .title-text{
