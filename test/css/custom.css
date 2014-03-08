@@ -22,13 +22,14 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight:300;
   font-weight: bold;
-  float:left;
+  text-align:left;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
   font-weight:300;
   font-weight: bold;
+  text-align:left;
 }
 
 body,html {
@@ -109,12 +110,12 @@ body,html {
 #about {
   background-color: #fefbee;
   padding-top:5%;
-  padding-bottom:2%;
+  padding-bottom:5%;
 }
 
 #img-me {
   width:100%;
-  margin-top:20px;
+  margin-top:60px;
 
   padding: 4px;
   line-height: 1.42857143;
