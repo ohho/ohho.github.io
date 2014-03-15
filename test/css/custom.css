@@ -96,11 +96,11 @@ body,html {
   position:absolute;
   top:84%;
   left:50%;
-  width:14.5%;
-  margin-left:-7.25%;
+  width:178px;
+  margin-left:-87.5px;
 
   background-color: rgba(241, 197, 83, .8);
-  font-size:20px;
+  font-size:14px;
   border-color:transparent;
   font-family: 'Lato', sans-serif;
   font-weight:300;
@@ -443,6 +443,12 @@ ul {
 
   #title {
     height: 80%;
+  }
+
+  #title-btn {
+    width:250px;
+    margin-left:-125px;
+    font-size:20px;
   }
 
   #logo {
