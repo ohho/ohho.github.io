@@ -62,7 +62,7 @@ body,html {
 #logo {
   position:absolute;
   left:50%;
-  top:38%;
+  top:32%;
   display:block; 
   max-width:90%;
   margin-left:-45%;
@@ -75,7 +75,7 @@ body,html {
 
 .title-text{
   position:absolute;
-  top:57%;
+  top:49%;
   width:500px;
   left:50%;
   margin-left:-250px;
@@ -96,7 +96,7 @@ body,html {
 
 #title-btn {
   position:absolute;
-  top:84%;
+  top:80%;
   left:50%;
   width:178px;
   margin-left:-87.5px;
@@ -166,7 +166,7 @@ body,html {
 
 .navbar {
   background-color: transparent; 
-  min-height:80px;
+  min-height:60px;
   /*border-bottom: 5px solid black;*/
   border-bottom:transparent;
   
@@ -178,7 +178,7 @@ body,html {
 
 #rectangle-left {
   width: 56%;
-  height: 80px;
+  height: 60px;
   background-color: rgba(241, 197, 83, .8);
   position:fixed;
   left:0px;
@@ -188,8 +188,8 @@ body,html {
 #triangle-bottomleft {
   width: 0;
   height: 0;
-  border-bottom: 80px solid rgba(241, 197, 83, .8);
-  border-right: 80px solid transparent;
+  border-bottom: 60px solid rgba(241, 197, 83, .8);
+  border-right: 60px solid transparent;
   position:fixed;
   left:56%;
   z-index:10;
@@ -198,16 +198,16 @@ body,html {
 #triangle-topright {
   width: 0;
   height: 0;
-  border-top: 80px solid rgba(100, 149, 68, 0.8);
-  border-left: 80px solid transparent;
+  border-top: 60px solid rgba(100, 149, 68, 0.8);
+  border-left: 60px solid transparent;
   position:fixed;
-  right:9%;
+  right:15%;
   z-index:10;
 }
 
 #rectangle-right {
-  width: 9%;
-  height:80px;
+  width: 15%;
+  height:60px;
   background-color: rgba(100, 149, 68, 0.8);
   position:fixed;
   right:0px;
@@ -226,9 +226,9 @@ body,html {
 /** END NAVBAR SHAPES **/
 
 .navbar-brand {
-  min-height:80px;
-  line-height:45px;
-  font-size:25px;
+  min-height:60px;
+  line-height:30px;
+  font-size:20px;
 }
 
 .navbar-inverse {
@@ -252,8 +252,7 @@ body,html {
 
 .navbar-nav>li>a {
   line-height:45px;
-  font-size:20px;
-  padding-left:30px;
+  font-size:18px;
 }
 
 .navbar-inverse .navbar-nav >li >a {
@@ -269,9 +268,10 @@ body,html {
 
 .navbar-inverse .navbar-toggle {
   border-color:transparent;
-  margin-top: 22px;
+  margin-top: 12px;
   padding: 7px 7px;
   border-radius:3px;
+  margin-right:12px;
 }
 
 .navbar-inverse .navbar-toggle:hover,
@@ -446,20 +446,41 @@ ul {
   p {
     font-size: 21px;
   }
+
+  .navbar {
+    min-height:80px;
+  }
+
+  .navbar-brand {
+    min-height:80px;
+    line-height:45px;
+    font-size:25px;
+  }
+
+  .navbar-nav>li>a {
+    font-size:20px;
+  }
+
   #rectangle-left {
     width: 32%;
+    height: 80px;
   }
 
   #triangle-bottomleft {
     left: 32%;
+    border-bottom: 80px solid rgba(241, 197, 83, .8);
+    border-right: 80px solid transparent;
   }
 
   #triangle-topright {
     right:53%;
+    border-top: 80px solid rgba(100, 149, 68, 0.8);
+    border-left: 80px solid transparent;
   }
 
   #rectangle-right {
     width:53%;
+    height: 80px;
   }
 
   .navbar-inverse .navbar-collapse {
