@@ -396,7 +396,7 @@ ul {
 
 
   .btn-project {
-    background-color: rgba(66, 159, 189, 0.8);
+    background-color: rgba(66, 140, 189, 0.8);
     font-size:20px;
     border-color:transparent;
     font-family: 'Lato', sans-serif;
@@ -406,7 +406,7 @@ ul {
   }
 
   .btn-project:hover {
-    background-color: rgba(29, 100, 127, 0.8) ;
+    background-color: rgba(50, 111, 151, 0.8);
     border-color:transparent;
   }
 
