@@ -4,7 +4,7 @@ body {
 p {
   font-family: 'Lato', sans-serif;
   font-weight:300;
-  font-size:16px;
+  font-size:18px;
 }
 
 a {
@@ -367,15 +367,16 @@ ul {
   height:98%;
   z-index:1000;
   margin-bottom:1%;
-  padding:60px 20px 0 20px;
+  padding:22% 20px 0 20px;
 }
 
 .img-info p{
   padding:0 10px;
+  font-size:18px;
 }
 
-.img-info p#sub-text {
-  font-size:18px;
+.img-info p.sub-text {
+  font-size:16px;
 }
 
 .img-wrap:hover .img-info{
@@ -640,6 +641,11 @@ ul {
 
   .img-info p{
     padding:0 10px;
+    font-size:21px;
+  }
+
+  .img-info p.sub-text {
+    font-size:18px;
   }
 
 }
