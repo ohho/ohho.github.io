@@ -335,12 +335,13 @@ ul {
 }
 
 .thumb.thumb-half-left{
-  max-width:49%;
-  margin-right:1.6%;
+  width: 100%;
+  margin:1% 0 1% 0;  
 }
 
 .thumb.thumb-half-right{
-  max-width:49%;
+  width: 100%;
+  margin:1% 0 1% 0;  
 }
 
 .img-wrap {
@@ -563,6 +564,15 @@ ul {
   .project-nav{
     font-size:25px;
     padding-top:21px;
+  }
+
+  .thumb.thumb-half-left{
+    max-width:49%;
+    margin-right:1.4%;
+  }
+
+  .thumb.thumb-half-right{
+    max-width:49%;
   }
 }
 
