@@ -70,7 +70,7 @@ body,html {
 }
 
 #logo-sm{
-  max-width:80%;
+  max-width:90%;
 }
 
 .title-text{
@@ -117,7 +117,7 @@ body,html {
 
 #about {
   background-color: #fff;
-  padding-top:7%;
+  padding-top:12%;
   padding-bottom:5%;
 }
 
@@ -134,7 +134,7 @@ body,html {
 
 #work {
   background-color: #eaeaea;
-  padding-top:7%;
+  padding-top:12%;
   padding-bottom:5%;
 }
 
@@ -388,10 +388,6 @@ ul {
 }
 
 /** PROJECT PAGES **/
-  .arrow {
-    width:7%;
-  }
-
   #project {
     background-color: #FFF;
     padding-bottom:5%;
@@ -419,12 +415,16 @@ ul {
   }
 
   .back-next-nav {
-    padding-top:8%;
+    padding-top:14%;
+  }
+
+  .arrow {
+    width:50px;
   }
 
   .project-nav{
-    font-size:25px;
-    padding-top:21px;
+    font-size:20px;
+    padding-top:12px;
   }
 
   .lead.lead-lower{
@@ -512,13 +512,14 @@ ul {
     font-size:30px;
   }
 
+  #about {
+    padding-top:7%;
+  }
+
   ul{
     font-size: 17px;
   }
 
-  p{
-    font-size:21px;
-  }
   .intro-text {
     padding: 35px 15px;
   }
@@ -553,6 +554,15 @@ ul {
   }
   .work-heading >p{
     margin-top:10px;
+  }
+
+  .arrow {
+    width:74px;
+  }
+
+  .project-nav{
+    font-size:25px;
+    padding-top:21px;
   }
 }
 
@@ -667,6 +677,10 @@ ul {
 
   .img-info p.sub-text {
     font-size:18px;
+  }
+
+  .back-next-nav {
+    padding-top:8%;
   }
 
 }
