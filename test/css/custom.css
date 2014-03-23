@@ -435,6 +435,21 @@ ul {
     font-size:18px;
   }
 
+
+/** OTHER PAGES **/
+  .project-nav a.active{
+    color:#000000;
+    font-size:25px;
+  }
+
+  .project-nav a{
+    color: rgba(91, 146, 55, 0.8);
+    float: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:21px;
+  }
+
 /** RESPONSIVE **/
 
 
