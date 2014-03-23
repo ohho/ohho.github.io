@@ -458,7 +458,7 @@ ul {
   }
 
   .project-nav a:hover{
-    color:rgba(165, 204, 139, 0.8)
+    color:#000000;
   }
 
   .project-nav.sub-nav {
@@ -477,6 +477,10 @@ ul {
     float: center;
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .project-nav.sub-nav a:hover{
+    color:#000000;
   }
 
 /** RESPONSIVE **/
@@ -711,7 +715,7 @@ ul {
   }
 
   #logo-sm{
-    max-width:52%;
+    max-width:60%;
   }
 
   .title-text{
@@ -737,7 +741,8 @@ ul {
   }
 
   .back-next-nav {
-    padding-top:8%;
+    padding-top:12%;
+    padding-bottom:5%;
   }
 
 }
