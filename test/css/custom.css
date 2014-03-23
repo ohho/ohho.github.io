@@ -431,6 +431,9 @@ ul {
   .lead.lead-lower{
     margin:10px 0 10px 0;
   }
+  .lead.lead-descript{
+    font-size:18px;
+  }
 
 /** RESPONSIVE **/
 
