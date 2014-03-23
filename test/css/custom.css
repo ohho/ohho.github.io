@@ -426,6 +426,7 @@ ul {
   .project-nav{
     font-size:20px;
     padding-top:12px;
+    margin-bottom:0px;
   }
 
   .lead.lead-lower{
@@ -437,7 +438,13 @@ ul {
 
 
 /** OTHER PAGES **/
-  .project-nav a.active{
+  .other-nav {
+    padding: 0px 15px 0 15px;
+    padding-top:16%;
+  }
+
+  .project-nav a.active,
+  .project-nav a.active:hover{
     color:#000000;
     font-size:25px;
   }
@@ -448,6 +455,28 @@ ul {
     padding-left: 5px;
     padding-right: 5px;
     font-size:21px;
+  }
+
+  .project-nav a:hover{
+    color:rgba(165, 204, 139, 0.8)
+  }
+
+  .project-nav.sub-nav {
+    padding-top:0px;
+  }
+
+  .project-nav.sub-nav a.active,
+  .project-nav.sub-nav a.active:hover{
+    color:#000000;
+    font-size:16px;
+  }
+
+  .project-nav.sub-nav a{
+    color: rgba(91, 146, 55, 0.8);
+    font-size: 16px;
+    float: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
 /** RESPONSIVE **/
