@@ -43,8 +43,8 @@ body,html {
   background-color: #eaeaea;
 }
 
-.container {
-
+.container.other-container {
+  width:942px;
 }
 
 #title {
