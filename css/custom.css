@@ -119,20 +119,16 @@ body,html {
   background-color: rgba(241, 197, 83, .4);
 }
 
-
-
-
 #about {
   background-color: #fff;
-  padding-top:12%;
-  padding-bottom:5%;
+  padding-top:7%;
+  padding-bottom:7%;
 }
 
 #img-me {
   width:100%;
-  margin-top:40px;
-
   padding: 4px;
+  margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #fff;
 }
@@ -159,6 +155,7 @@ body,html {
 
 .lead {
   text-align:left;
+  font-size: 18px;
 }
 
 .indented {
@@ -314,6 +311,14 @@ ul {
 
 
 /* WORK SECTION */
+.work-container {
+  text-align: center;
+}
+
+.work-container:last-child {
+  margin-top: 50px;
+}
+
 .work-heading {
   margin-bottom:20px;
 }
@@ -503,7 +508,7 @@ ul {
   }
 
   p {
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .navbar {
@@ -582,8 +587,12 @@ ul {
     font-size: 17px;
   }
 
-  .intro-text {
+  .title-text.intro-text {
     padding: 10px;
+  }
+
+  .intro-text {
+    padding: 0px;
   }
 
   #footer {
@@ -615,8 +624,9 @@ ul {
   .work-heading {
     margin-bottom:20px;
   }
+  
   .work-heading >p{
-    margin-top:10px;
+    margin-top:14px;
   }
 
   .arrow {
@@ -668,6 +678,10 @@ ul {
     width: 800px;
     margin-left:-400px;
     max-height:39%;
+  }
+
+   #img-me {
+    margin-bottom: 0;
   }
 
   .img-wrap {
