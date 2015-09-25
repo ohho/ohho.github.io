@@ -339,6 +339,10 @@ ul {
   background-color: #fff;
 }
 
+.thumb-center:not(last-child) {
+  margin-bottom: 10px;
+}
+
 .thumb.thumb-half-left{
   width: 100%;
   margin:1% 0 1% 0;  
@@ -624,7 +628,7 @@ ul {
   .work-heading {
     margin-bottom:20px;
   }
-  
+
   .work-heading >p{
     margin-top:14px;
   }
