@@ -513,6 +513,12 @@ ul {
     color:#000000;
   }
 
+  #swipebox-slider .slide img, 
+  #swipebox-slider .slide .swipebox-video-container, 
+  #swipebox-slider .slide .swipebox-inline-container {
+    max-width: 90%;
+  }
+
 /** RESPONSIVE **/
 
 
