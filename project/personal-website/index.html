@@ -14,9 +14,6 @@
     <!-- Bootstrap core CSS -->
     <link href="../../css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="../../css/custom.css" rel="stylesheet">
-
     <!-- Animation -->
     <link href="../../css/animate.css" rel="stylesheet">
 
@@ -38,6 +35,14 @@
     <script type="text/javascript" src="../../js/verticalscroller.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/script.js"></script>
+
+    <!-- Swipebox -->
+    <script src="../../swipebox/jquery-2.1.0.min.js"></script>
+    <script src="../../swipebox/js/jquery.swipebox.js"></script>
+    <link rel="stylesheet" href="../../swipebox/css/swipebox.css">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/custom.css" rel="stylesheet">
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -101,18 +106,32 @@
           <h1>Personal Website</h1>
           <p class="lead"><b>Brief:</b> After 1.5 years with my old site, I decided I needed to refocus my site on my web and UIUX work. My previous site (shown below), while striking with a variety of images and color, lacked a voice and a personal touch. </p>
 
-          <p class="lead"><b>Execution:</b> I decided early on I wanted a site that would be straight and to the point about who I am, what I do, and what I care about. Also instead of loading all my work on a single page by category, I wanted to focus on my web work and hone in on several large projects. This structural change would not only improve page load time (something I struggled with in the previous site) but also give me a platform to candidly demonstrate my thought process.</p>
+          <p class="lead"><b>Execution:</b> I decided early on I wanted a site that would be straight-forward and to the point about who I am, what I do, and what I care about. Morever, instead of loading all my work on a single page by category, I wanted to focus on my UIUX work and hone in instead on large projects. This structural change would not only improve page load time (something I struggled with in the previous site) but also give me a platform to candidly share my thought processes.</p>
 
-          <p class="lead"><b>Tools:</b> Adobe Illustrator, Photoshop, Github, Sublime</p>
+          <p class="lead"><b>Tools:</b> Adobe Illustrator, Photoshop, Github, HTML/CSS</p>
 
-          <img class="thumb thumb-half-left" src="../../images/work-ohho.jpg" alt="" />
-          <img class="thumb thumb-half-right" src="proj-ohho-sketch.jpg" alt="" />
-          <p class="lead lead-descript">The design of my site evolved alongside the development. As for the main color, I decided to run an ad hoc user test of sorts by posting two versions of the title screen (one in green, the other in orange) on my personal Facebook account and asked for people's opinions. I received a flood of responses, with and without explanations, while ultimately led me to decide on the color scheme I have now.</p>
+          <a href="../../images/work-ohho.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-half-left" src="../../images/work-ohho.jpg" alt="image">
+          </a>
+          <a href="proj-ohho-sketch.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-half-right" src="proj-ohho-sketch.jpg" alt="image">
+          </a>
+
+          <p class="lead lead-descript">The design of my site evolved alongside the development. As for the main color, I decided to run an ad hoc user test of sorts by posting two versions of the title screen (one in green, the other in orange) on my personal Facebook account and asked for people's opinions. I received a flood of responses, with and without explanations, which ultimately led me to decide on the color scheme I have now.</p>
           <p class="lead lead-lower lead-descript">Previous Design:</p>
-          <img class="thumb" src="proj-old-full.jpg" alt="" />
-          <img class="thumb thumb-half-left" src="proj-old-1.jpg" alt="" />
-          <img class="thumb thumb-half-right" src="proj-old-2.jpg" alt="" />
-          <img class="thumb" src="proj-old-about.jpg" alt="" />
+
+          <a href="proj-old-full.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb" src="proj-old-full.jpg" alt="image">
+          </a>
+          <a href="proj-old-1.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-half-left" src="proj-old-1.jpg" alt="image">
+          </a>
+          <a href="proj-old-2.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-half-right" src="proj-old-2.jpg" alt="image">
+          </a>
+          <a href="proj-old-about.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb" src="proj-old-about.jpg" alt="image">
+          </a>
       </div>
     </div>
 
@@ -123,7 +142,26 @@
           <p class="footer-text"> Website built with &nbsp;&hearts;&nbsp; by Jackie Ho</p>
       </div>
     </div>
-  
+
+    <!--Swipebox-->
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+      $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+    </script>
+    <script>
+    $(function(){
+      $(document.body)
+          .on('click touchend','#swipebox-slider .current img', function(e){
+              return false;
+          })
+          .on('click touchend','#swipebox-slider .current', function(e){
+              $('#swipebox-close').trigger('click');
+          });
+        });
+    </script>
 
     
     </body>
