@@ -39,6 +39,11 @@
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/script.js"></script>
 
+    <!-- Swipebox -->
+    <script src="../../swipebox/jquery-2.1.0.min.js"></script>
+    <script src="../../swipebox/js/jquery.swipebox.js"></script>
+    <link rel="stylesheet" href="../../swipebox/css/swipebox.css">
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -108,9 +113,16 @@
             <a href="http://humans-of-columbia.github.io/" target="blank"><div type="button" class="btn btn-primary btn-project"> Visit Site </div></a>
           </div>
 
-          <img class="thumb thumb-center" src="../../images/work-hoc.jpg" alt="" />
-          <img class="thumb thumb-center" src="proj-hoc-gallery.jpg" alt="" />
-          <img class="thumb thumb-center" src="proj-hoc-ipad.jpg" alt="" />
+          <a href="../../images/work-hoc.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-center" src="../../images/work-hoc.jpg" alt="image">
+          </a>
+          <a href="proj-hoc-gallery.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-center" src="proj-hoc-gallery.jpg" alt="image">
+          </a>
+          <a href="proj-hoc-ipad.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-center" src="proj-hoc-ipad.jpg" alt="image">
+          </a>
+
       </div>
     </div>
 
@@ -121,8 +133,15 @@
           <p class="footer-text"> Website built with &nbsp;&hearts;&nbsp; by Jackie Ho</p>
       </div>
     </div>
-  
 
+    <!--Swipebox-->
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+      $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+    </script>
     
     </body>
 </html>

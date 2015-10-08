@@ -39,6 +39,11 @@
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/script.js"></script>
 
+    <!-- Swipebox -->
+    <script src="../../swipebox/jquery-2.1.0.min.js"></script>
+    <script src="../../swipebox/js/jquery.swipebox.js"></script>
+    <link rel="stylesheet" href="../../swipebox/css/swipebox.css">
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -99,17 +104,21 @@
     <div class='tile animated fadeIn' id='project'>
       <div class="container">
           <h1>Kleverbeast - Share Feature User Flow Diagrams</h1>
-          <p class="lead"><b>Brief:</b> During my internship at Kleverbeast working on the product team, I created these user flow diagrams for 'KB Portfolio'. Once the user has created their portfolio using the web application, he/she will be prompted to preview or share their portfolio via the iPad application. (Note: The company Kleverbeast no longer exists.)</p>
+          <p class="lead"><b>Brief:</b> During my internship at <a href="https://www.facebook.com/kleverbeast" target="_blank">Kleverbeast</a> working on the product team, I created these user flow diagrams for 'KB Portfolio'. Once the user has created their portfolio using the web application, he/she will be prompted to preview or share their portfolio via the iPad application. (Note: The company Kleverbeast no longer exists.)</p>
 
-          <p class="lead"><b>Execution:</b> The product team consisted of 6 members, 3 of which are in Bulgaria. Early on, it was clear that the "Share" feature would be the key feature of our product, however the exact flow was still unclear and, from our numerous user tests, users were confused by what they were supposed to do after creating their portfolio. After a long meeting where we verbally flushed out the user flow via Google Hangouts, I volunteered to create the definitive diagram. Multiple versions were created to account for another feature, live updating, which had not yet been built.</p>
-
-          <p class="lead">With approval from the head of product, the CEO, the diagrams shown below are the final result.</p>
+          <p class="lead"><b>Execution:</b> The product team consisted of 6 members, 3 of which are in Bulgaria. Early on, it was clear that the "Share" feature would be the key feature of our product, however the exact flow was still unclear and, from our numerous user tests, users were confused by what they were supposed to do after creating their portfolio. After a long meeting where we verbally flushed out the user flow via Google Hangouts, I then created the definitive diagrams to illustrate our decisions. Multiple versions were created to account for another feature, live updating, which had not yet been built.</p>
 
           <p class="lead"><b>Tool:</b> Adobe Illustrator</p>
 
-          <img class="thumb" src="proj-kb-a2.jpg" alt="" />
-          <img class="thumb thumb-half-left" src="proj-kb-b1.jpg" alt="" />
-          <img class="thumb thumb-half-right" src="proj-kb-b2.jpg" alt="" />
+          <a href="proj-kb-a2.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb" src="proj-kb-a2.jpg" alt="image">
+          </a>
+          <a href="proj-kb-b1.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-half-left" src="proj-kb-b1.jpg" alt="image">
+          </a>
+          <a href="proj-kb-b2.jpg" class="swipebox" rel="group" title="">
+            <img class="thumb thumb-half-right" src="proj-kb-b2.jpg" alt="image">
+          </a>
       </div>
     </div>
 
@@ -120,7 +129,15 @@
           <p class="footer-text"> Website built with &nbsp;&hearts;&nbsp; by Jackie Ho</p>
       </div>
     </div>
-  
+
+    <!--Swipebox-->
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+      $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+    </script>
 
     
     </body>
