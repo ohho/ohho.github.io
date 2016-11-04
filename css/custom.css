@@ -47,7 +47,7 @@ body,html {
   height: 100%;
 }
 .tile {
-  
+
   background-color: #eaeaea;
 }
 
@@ -78,7 +78,7 @@ body,html {
   position:relative;
   left:50%;
   //top:32%;
-  display:block; 
+  display:block;
   width:90%;
   margin-left:-45%;
   max-height:32%;
@@ -181,11 +181,11 @@ body,html {
 }
 
 .navbar {
-  background-color: transparent; 
+  background-color: transparent;
   min-height:60px;
   /*border-bottom: 5px solid black;*/
   border-bottom:transparent;
-  
+
 }
 
 /** NAVBAR SHAPES **/
@@ -363,12 +363,12 @@ ul {
 
 .thumb.thumb-half-left{
   width: 100%;
-  margin:1% 0 1% 0;  
+  margin:1% 0 1% 0;
 }
 
 .thumb.thumb-half-right{
   width: 100%;
-  margin:1% 0 1% 0;  
+  margin:1% 0 1% 0;
 }
 
 .img-wrap {
@@ -518,8 +518,8 @@ ul {
     color:#000000;
   }
 
-  #swipebox-slider .slide img, 
-  #swipebox-slider .slide .swipebox-video-container, 
+  #swipebox-slider .slide img,
+  #swipebox-slider .slide .swipebox-video-container,
   #swipebox-slider .slide .swipebox-inline-container {
     max-width: 90%;
     max-height: 97%;
@@ -641,7 +641,7 @@ ul {
 
   .img-wrap{
     width:46%;
-    margin:1.4%;    
+    margin:1.4%;
   }
 
   #footer-para {
@@ -749,19 +749,19 @@ ul {
   }
 
   #rectangle-left {
-    width: 30%;
+    width: 35%;
   }
 
   #triangle-bottomleft {
-    left: 30%;
+    left: 35%;
   }
 
   #triangle-topright {
-    right:60%;
+    right:56%;
   }
 
   #rectangle-right {
-    width:60%;
+    width:56%;
   }
 
   #logo {
