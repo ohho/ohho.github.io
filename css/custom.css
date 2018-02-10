@@ -30,6 +30,7 @@ h1 {
   text-align: left;
   margin-top: 0px;
   font-size: 24px;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -332,14 +333,15 @@ ul {
 
 .work-heading {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .work-heading > h1 {
-  float: left;
 }
 
 .work-heading > p {
-  float: left;
   margin: 0px 0 0 10px;
 }
 
@@ -662,6 +664,7 @@ ul {
 
   .work-heading {
     margin-bottom: 20px;
+    flex-direction: row;
   }
 
   .work-heading > p {
