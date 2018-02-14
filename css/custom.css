@@ -1,9 +1,9 @@
 body {
   /*padding-top: 50px;*/
+  font-family: 'Lato', sans-serif;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
@@ -13,18 +13,15 @@ p {
 }
 
 a {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #69A6CF;
 }
 
 a:hover {
-  font-family: 'Lato', sans-serif;
   text-decoration: none;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-weight: bold;
   text-align: left;
@@ -34,7 +31,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-weight: bold;
   text-align: left;
@@ -47,6 +43,12 @@ b, strong {
 body, html {
   width: 100%;
   height: 100%;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .tile {
@@ -311,7 +313,6 @@ hr {
 ul {
   text-align: left;
   margin-bottom: 25px;
-  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 17px;
 }
 
@@ -534,7 +535,7 @@ ul {
 .slideshow {
   width: 100%;
   height: 400px;
-  margin-top: 50px;
+  margin: 24px 0 48px;
 }
 
 /** RESPONSIVE **/
@@ -692,7 +693,6 @@ ul {
   .slideshow {
     width: 100%;
     height: 500px;
-    margin-top: 50px;
   }
 }
 
@@ -808,6 +808,5 @@ ul {
   .slideshow {
     width: 100%;
     height: 600px;
-    margin-top: 50px;
   }
 }
